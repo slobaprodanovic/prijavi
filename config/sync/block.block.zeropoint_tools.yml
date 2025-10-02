@@ -1,0 +1,27 @@
+uuid: 5335793a-fc4a-4f71-880d-185c40b298bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - zeropoint
+_core:
+  default_config_hash: 8r6ergM2oNHwrOS87xT9fCCEFkmeQcnCxZGkUB89y-Q
+id: zeropoint_tools
+theme: zeropoint
+region: sidebar_second
+weight: 1
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
